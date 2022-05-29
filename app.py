@@ -104,7 +104,7 @@ if selected == "Movie Recommendation":
         if movie_select == '--Select--':
             st.write('Select a movie')
         else:
-            n = st.number_input('Add number of movies you want to see (maximum limit - 30):', min_value=5, max_value=20, step=1)
+            n = st.number_input('Add number of movies you want to see (maximum limit - 20):', min_value=5, max_value=20, step=1)
             genres = data[movies.index(movie_select)]
             test_point = genres
             table = knn_algo(test_point, n)
