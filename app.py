@@ -17,7 +17,7 @@ from streamlit_option_menu import option_menu
 with st.sidebar:
     selected = option_menu(
         menu_title="Main Menu",
-        options=["Home", "Movie Recommendation","Guidline for user"], 
+        options=["Home", "Movie Recommendation","Guideline for user"], 
         icons=["house", "film", "book"], 
         menu_icon="cast", 
         default_index=0, 
@@ -128,9 +128,9 @@ if selected == "Movie Recommendation":
     else:
         st.write('Select option')
 
-if selected == "Guidline for user":
-    st.header("Guidline to use Movie recommendation system")
+if selected == "Guideline for user":
+    st.header("Guideline to use Movie recommendation system")
     st.write("  Their are two modes of selection for movie recommendation")
-    st.write("1.Genres Based - Here you have to select the genres and the IMDb rating, and based on that, you will get movie recommendations.")
-    st.write("2.Movie Based - Here you have to select any movie, and you will get movie recommendation similar to the movie you have chosen.")
-    st.write("There is a link attached to those movie names, which was recommended to you, which will redirect you to the IMDb website when you click on the name of that movie. ")
+    st.write("1. Genres Based - Here, you have to select the genres and the IMDb rating, and based on that, you will get movie recommendations.")
+    st.write("2. Movie Based - Here, you have to select any movie, and you will get movie recommendation similar to the movie you have chosen.")
+    st.write("There is a link attached to those movie names, which was recommendeds to you, which will redirect you to the IMDb website when you click on the name of that movie. ")
