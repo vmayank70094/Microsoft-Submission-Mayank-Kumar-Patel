@@ -19,7 +19,7 @@ streamlit run app.py
 
 ## Designed for:
 
-Mainly targetted to work on browsers running on Desktop and laptops. However, can be used in the browser of your smartphone or tablets as well.
+Mainly targetted to work on browsers running on Desktop and laptops.
 Works the best on browsers like Chrome and Microsoft Edge.
 
 ## The web app has been tested on:
