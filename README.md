@@ -5,6 +5,7 @@
 There are two modes of selection for movie recommendation
 1. Genres Based - Here, you have to select the genres and the IMDb rating, and based on that, you will get movie recommendations.
 2. Movie Based - Here, you have to select any movie, and you will get movie recommendations similar to the movie you have chosen.
+
 There is a link attached to those movie names, which was recommended to you, which will redirect you to the IMDb website when you click on the name of that movie.
 
 # As Developer:
