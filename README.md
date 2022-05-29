@@ -11,9 +11,8 @@ There is a link attached to those movie names, which was recommended to you, whi
 
 ## Installing and running application
 
-1. pip install pandas
-2. Firstly, clone the git repository to your local machine or you can download the zip file and extract it.
-3. Open the command prompt and navigate to the directory you extracted in the previous step and run the command:
+1. Firstly, clone the git repository to your local machine or you can download the zip file and extract it.
+2. Open the command prompt and navigate to the directory you extracted in the previous step and run the command:
 streamlit run app.py
 
 # Compatibility and other requirements
